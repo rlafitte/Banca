@@ -46,7 +46,9 @@ namespace LaBancaQueBanca.GUI
             {
             ValidarCampos();
             p.ValidarDatosPrestamo(tbMonto.Text, tbPlazo.Text);
-            tbCuotaCap.Text = p.Simulacion(tbTNA.Text, tbMonto.Text, tbPlazo.Text);
+            tbCuotaCap.Text = p.SimulacionCap(tbTNA.Text, tbMonto.Text, tbPlazo.Text);
+            tbCuotaInt.Text = p.SimulacionInt(tbMonto.Text, tbPlazo.Text, tbTNA.Text);
+            tbCuotaTotal.Text = (Convert.ToDouble(tbCuotaCap.Text) + Convert.ToDouble(tbCuotaInt.Text)).ToString("0.00"); 
             }
             catch (Exception ex)
             {

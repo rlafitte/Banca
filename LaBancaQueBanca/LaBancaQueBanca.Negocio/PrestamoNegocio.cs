@@ -28,13 +28,22 @@ namespace LaBancaQueBanca.Negocio
                 }
         }
 
-        public string Simulacion(string tna, string monto, string plazo)
+        public string SimulacionCap(string tna, string monto, string plazo)
         {
             Prestamo p = new Prestamo();
             p.Monto = Convert.ToDouble(monto);
             p.Plazo = Convert.ToInt32(plazo);
             return p.CuotaCapital().ToString("0.00");
 
+        }
+
+        public string SimulacionInt(string monto, string plazo, string tna)
+        {
+            Prestamo p = new Prestamo();
+            p.Monto = Convert.ToDouble(monto);
+            p.Plazo = Convert.ToInt32(plazo);
+            p.Tna = Convert.ToDouble(tna);
+            return p.CuotaInteres().ToString("0.00");
         }
     }
 }
