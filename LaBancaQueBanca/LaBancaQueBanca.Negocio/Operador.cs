@@ -20,6 +20,7 @@ namespace LaBancaQueBanca.Negocio
         public double Comision { get => _comision; set => _comision = value; }
         public List<Prestamo> ListaPrestamos()
         {
+            //llamar API para traer lista préstamos
             List<Prestamo> _list = new List<Prestamo>();
             
             return _list;

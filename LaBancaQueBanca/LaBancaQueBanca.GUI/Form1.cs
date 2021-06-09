@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LaBancaQueBanca.Negocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace LaBancaQueBanca.GUI
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            Operador Op = new Operador();
+            lstPrestamos.DataSource = null;
+            lstPrestamos.DataSource = Op.ListaPrestamos();
         }
     }
 }

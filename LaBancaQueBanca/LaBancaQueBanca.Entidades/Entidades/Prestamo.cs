@@ -24,6 +24,10 @@ namespace LaBancaQueBanca.Entidades.Entidades
             Usuario = usuario;
             Id = id;
         }
+        public Prestamo()
+        {
+
+        }
 
         public string Linea { get => _linea; set => _linea = value; }
         public double Tna { get => _tna; set => _tna = value; }
