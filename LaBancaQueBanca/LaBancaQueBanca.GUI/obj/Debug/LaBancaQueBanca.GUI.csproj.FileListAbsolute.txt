@@ -1,0 +1,10 @@
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.GUI\bin\Debug\LaBancaQueBanca.GUI.exe.config
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.GUI\bin\Debug\LaBancaQueBanca.GUI.exe
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.GUI\bin\Debug\LaBancaQueBanca.GUI.pdb
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.GUI\obj\Debug\LaBancaQueBanca.GUI.csprojAssemblyReference.cache
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.GUI\obj\Debug\LaBancaQueBanca.GUI.Form1.resources
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.GUI\obj\Debug\LaBancaQueBanca.GUI.Properties.Resources.resources
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.GUI\obj\Debug\LaBancaQueBanca.GUI.csproj.GenerateResource.cache
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.GUI\obj\Debug\LaBancaQueBanca.GUI.csproj.CoreCompileInputs.cache
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.GUI\obj\Debug\LaBancaQueBanca.GUI.exe
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.GUI\obj\Debug\LaBancaQueBanca.GUI.pdb
