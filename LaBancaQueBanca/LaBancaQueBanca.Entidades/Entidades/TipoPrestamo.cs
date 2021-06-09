@@ -20,11 +20,15 @@ namespace LaBancaQueBanca.Entidades.Entidades
         }
         public TipoPrestamo()
         {
-
+            ToString();
         }
 
         public string Linea { get => _linea; set => _linea = value; }
         public double Tna { get => _tna; set => _tna = value; }
         public int Id { get => _id; set => _id = value; }
+        public override string ToString()
+        {
+            return $"id: {this.Id} - TNA: {this.Tna} - Desc: {this.Linea}";
+        }
     }
 }
