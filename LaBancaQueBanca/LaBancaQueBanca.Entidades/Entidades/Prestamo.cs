@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LaBancaQueBanca.Datos
+namespace LaBancaQueBanca.Entidades.Entidades
 {
-    public class Class1
+    class Prestamo
     {
     }
 }

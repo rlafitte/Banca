@@ -79,5 +79,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LaBancaQueBanca.Entidades\LaBancaQueBanca.Entidades.csproj">
+      <Project>{a01b0cd5-8f03-4574-9341-b93fc64c57b6}</Project>
+      <Name>LaBancaQueBanca.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LaBancaQueBanca.Negocio\LaBancaQueBanca.Negocio.csproj">
+      <Project>{62a7c28d-20cf-41a4-b3c4-313903341486}</Project>
+      <Name>LaBancaQueBanca.Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
