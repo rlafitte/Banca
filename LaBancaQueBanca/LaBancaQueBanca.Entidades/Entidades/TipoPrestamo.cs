@@ -18,6 +18,10 @@ namespace LaBancaQueBanca.Entidades.Entidades
             Tna = tna;
             Id = id;
         }
+        public TipoPrestamo()
+        {
+
+        }
 
         public string Linea { get => _linea; set => _linea = value; }
         public double Tna { get => _tna; set => _tna = value; }

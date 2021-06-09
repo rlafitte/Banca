@@ -21,8 +21,10 @@ namespace LaBancaQueBanca.GUI
         private void Form1_Load(object sender, EventArgs e)
         {
             Operador Op = new Operador();
+            lstTipoPrest.DataSource = null;
+            lstTipoPrest.DataSource = Op.ListaTipoPrestamos();
             lstPrestamos.DataSource = null;
-            lstPrestamos.DataSource = Op.ListaPrestamos();
+            //lstPrestamos.DataSource = Op.ListaPrestamos();
         }
     }
 }

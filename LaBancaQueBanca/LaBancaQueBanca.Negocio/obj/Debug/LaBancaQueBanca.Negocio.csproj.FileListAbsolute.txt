@@ -1,0 +1,13 @@
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.Negocio\obj\Debug\LaBancaQueBanca.Negocio.csprojAssemblyReference.cache
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.Negocio\obj\Debug\LaBancaQueBanca.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.Negocio\bin\Debug\LaBancaQueBanca.Negocio.dll
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.Negocio\bin\Debug\LaBancaQueBanca.Negocio.pdb
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.Negocio\bin\Debug\LaBancaQueBanca.Datos.dll
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.Negocio\bin\Debug\LaBancaQueBanca.Entidades.dll
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.Negocio\bin\Debug\LaBancaQueBanca.Datos.pdb
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.Negocio\bin\Debug\LaBancaQueBanca.Entidades.pdb
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.Negocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.Negocio\obj\Debug\LaBancaQueBanca.Negocio.csproj.CopyComplete
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.Negocio\obj\Debug\LaBancaQueBanca.Negocio.dll
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.Negocio\obj\Debug\LaBancaQueBanca.Negocio.pdb
