@@ -27,7 +27,7 @@ namespace LaBancaQueBanca.GUI
             lstTipoPrest.DataSource = null;
             lstTipoPrest.DataSource = Op.ListaTipoPrestamos();
             lstPrestamos.DataSource = null;
-            //lstPrestamos.DataSource = Op.ListaPrestamos();
+            lstPrestamos.DataSource = Op.ListaPrestamos();
         }
 
         private void lstTipoPrest_SelectedIndexChanged(object sender, EventArgs e)

@@ -49,7 +49,10 @@ namespace LaBancaQueBanca.Entidades.Entidades
         {
             return (CuotaCapital() + CuotaInteres());
         }
-
+        public override string ToString()
+        {
+            return $"id: {this.Id} - TNA: {this.Tna} - Usuario: {this.Usuario}";
+        }
 
     }
 }

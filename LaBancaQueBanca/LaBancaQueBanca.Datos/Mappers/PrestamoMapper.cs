@@ -20,7 +20,7 @@ namespace LaBancaQueBanca.Datos.Mappers
 
         public List<Prestamo> TraerPrestamos()
         {
-            string json = WebHelper.Get("/");
+            string json = WebHelper.Get("/877071");
             List<Prestamo> resultado = MapList(json);
             return resultado;
         }
