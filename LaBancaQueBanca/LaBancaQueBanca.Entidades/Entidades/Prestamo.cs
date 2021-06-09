@@ -31,5 +31,19 @@ namespace LaBancaQueBanca.Entidades.Entidades
         public double Monto { get => _monto; set => _monto = value; }
         public string Usuario { get => _usuario; set => _usuario = value; }
         public int Id { get => _id; set => _id = value; }
+
+        public double CuotaCapital()
+        {
+            return (this.Monto / this.Plazo);
+        }
+        public double CuotaInteres()
+        {
+            double t = CuotaCapital() * (Tna/12/100);
+            return t;
+        }
+        public double Cuota()
+        {
+            return (CuotaCapital() + CuotaInteres());
+        }
     }
 }
