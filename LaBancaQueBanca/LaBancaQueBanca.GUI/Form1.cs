@@ -23,24 +23,42 @@ namespace LaBancaQueBanca.GUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            try
+            {
+
             CargarTiposPrestamos();
             CargarPrestamos();
             ActualizarComision();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void CargarTiposPrestamos()
         {
+
             Operador Op = new Operador();
             lstTipoPrest.DataSource = null;
             lstTipoPrest.DataSource = Op.ListaTipoPrestamos();
-        }
+                if (lstTipoPrest.DataSource == null)
+                {
+                    throw new Exception("Error al cargar lista de préstamos.");
+                }
+            }
 
         private void CargarPrestamos()
         {
+            
             Operador Op = new Operador();
             lstPrestamos.DataSource = null;
-            lstPrestamos.DataSource = Op.ListaPrestamos(); 
-        }
+            lstPrestamos.DataSource = Op.ListaPrestamos();
+            if (lstPrestamos.DataSource == null)
+            {
+                throw new Exception("Error al cargar lista de préstamos.");
+            }
+}
 
         private void lstTipoPrest_SelectedIndexChanged(object sender, EventArgs e)
         {
