@@ -17,6 +17,7 @@ namespace LaBancaQueBanca.GUI
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -63,6 +64,12 @@ namespace LaBancaQueBanca.GUI
             {
                 throw new Exception("Complete campos Monto y Plazo.");
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ConfirmarAltaGUI frm = new ConfirmarAltaGUI();
+            this.Show(frm);
         }
     }
 }

@@ -17,3 +17,4 @@ C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.G
 C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.GUI\bin\Debug\LaBancaQueBanca.Datos.pdb
 C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.GUI\bin\Debug\Newtonsoft.Json.xml
 C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.GUI\obj\Debug\LaBancaQueBanca.GUI.csproj.CopyComplete
+C:\Users\renar\Desktop\CAI\BancaQueBanca\Banca\LaBancaQueBanca\LaBancaQueBanca.GUI\obj\Debug\LaBancaQueBanca.GUI.ConfirmarAltaGUI.resources
