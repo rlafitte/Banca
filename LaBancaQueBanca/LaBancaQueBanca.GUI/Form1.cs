@@ -18,6 +18,7 @@ namespace LaBancaQueBanca.GUI
         {
             InitializeComponent();
             
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -69,7 +70,8 @@ namespace LaBancaQueBanca.GUI
         private void button1_Click(object sender, EventArgs e)
         {
             ConfirmarAltaGUI frm = new ConfirmarAltaGUI();
-            this.Show(frm);
+            frm.Owner = this;
+            frm.Show();
         }
     }
 }
