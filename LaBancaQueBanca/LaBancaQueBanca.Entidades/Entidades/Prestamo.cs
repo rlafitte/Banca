@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LaBancaQueBanca.Entidades.Entidades
 {
-    class Prestamo
+    public class Prestamo
     {
     }
 }
