@@ -30,12 +30,36 @@ namespace LaBancaQueBanca.GUI
 
         private void lstTipoPrest_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (lstTipoPrest.SelectedIndex != null || lstTipoPrest.SelectedIndex)
+            if (lstTipoPrest.SelectedIndex != null || lstTipoPrest.SelectedIndex != 0)
             {
                 TipoPrestamo tp = (TipoPrestamo)lstTipoPrest.SelectedItem;
                 tbLinea.Text = tp.Id.ToString();
                 tbTNA.Text = tp.Tna.ToString();
 
+            }
+        }
+
+        private void btnSimular_Click(object sender, EventArgs e)
+        {
+            PrestamoNegocio p = new PrestamoNegocio();
+            try
+            {
+            ValidarCampos();
+            p.ValidarDatosPrestamo(tbMonto.Text, tbPlazo.Text);
+            tbCuotaCap.Text = p.Simulacion(tbTNA.Text, tbMonto.Text, tbPlazo.Text);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void ValidarCampos()
+        {
+            if(tbMonto.Text == "" ||
+                tbPlazo.Text == "")
+            {
+                throw new Exception("Complete campos Monto y Plazo.");
             }
         }
     }

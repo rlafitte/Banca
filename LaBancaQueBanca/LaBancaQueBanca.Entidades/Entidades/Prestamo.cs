@@ -49,5 +49,7 @@ namespace LaBancaQueBanca.Entidades.Entidades
         {
             return (CuotaCapital() + CuotaInteres());
         }
+
+
     }
 }
