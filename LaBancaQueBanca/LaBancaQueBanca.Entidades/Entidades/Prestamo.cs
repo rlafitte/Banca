@@ -8,5 +8,28 @@ namespace LaBancaQueBanca.Entidades.Entidades
 {
     public class Prestamo
     {
+        private string _linea;
+        private double _tna;
+        private int _plazo;
+        private double _monto;
+        private string _usuario;
+        private int _id;
+
+        public Prestamo(string linea, double tna, int plazo, double monto, string usuario, int id)
+        {
+            Linea = linea;
+            Tna = tna;
+            Plazo = plazo;
+            Monto = monto;
+            Usuario = usuario;
+            Id = id;
+        }
+
+        public string Linea { get => _linea; set => _linea = value; }
+        public double Tna { get => _tna; set => _tna = value; }
+        public int Plazo { get => _plazo; set => _plazo = value; }
+        public double Monto { get => _monto; set => _monto = value; }
+        public string Usuario { get => _usuario; set => _usuario = value; }
+        public int Id { get => _id; set => _id = value; }
     }
 }
