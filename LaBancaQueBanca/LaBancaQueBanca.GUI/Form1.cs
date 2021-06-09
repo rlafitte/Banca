@@ -1,4 +1,5 @@
-﻿using LaBancaQueBanca.Negocio;
+﻿using LaBancaQueBanca.Entidades.Entidades;
+using LaBancaQueBanca.Negocio;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -25,6 +26,17 @@ namespace LaBancaQueBanca.GUI
             lstTipoPrest.DataSource = Op.ListaTipoPrestamos();
             lstPrestamos.DataSource = null;
             //lstPrestamos.DataSource = Op.ListaPrestamos();
+        }
+
+        private void lstTipoPrest_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (lstTipoPrest.SelectedIndex != null || lstTipoPrest.SelectedIndex)
+            {
+                TipoPrestamo tp = (TipoPrestamo)lstTipoPrest.SelectedItem;
+                tbLinea.Text = tp.Id.ToString();
+                tbTNA.Text = tp.Tna.ToString();
+
+            }
         }
     }
 }

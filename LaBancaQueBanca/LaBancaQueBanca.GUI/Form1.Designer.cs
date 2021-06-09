@@ -62,6 +62,7 @@ namespace LaBancaQueBanca.GUI
             this.lstTipoPrest.Name = "lstTipoPrest";
             this.lstTipoPrest.Size = new System.Drawing.Size(219, 264);
             this.lstTipoPrest.TabIndex = 0;
+            this.lstTipoPrest.SelectedIndexChanged += new System.EventHandler(this.lstTipoPrest_SelectedIndexChanged);
             // 
             // groupBox1
             // 
