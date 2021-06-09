@@ -1,4 +1,5 @@
-﻿using LaBancaQueBanca.Entidades.Entidades;
+﻿using LaBancaQueBanca.Datos.Mappers;
+using LaBancaQueBanca.Entidades.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +27,14 @@ namespace LaBancaQueBanca.Negocio
 
                 throw new Exception("Plazo inválido. Corrija su entrada.");
                 }
+        }
+
+        public void AltaPrestamo(Prestamo prestamo_gui)
+        {
+            PrestamoMapper p = new PrestamoMapper();
+            Prestamo pre = prestamo_gui;
+            p.Agregar(pre);
+            
         }
 
         public string SimulacionCap(string tna, string monto, string plazo)

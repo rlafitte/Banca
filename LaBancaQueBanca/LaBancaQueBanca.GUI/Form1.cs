@@ -23,11 +23,23 @@ namespace LaBancaQueBanca.GUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            CargarTiposPrestamos();
+            CargarPrestamos();
+            ActualizarComision();
+        }
+
+        private void CargarTiposPrestamos()
+        {
             Operador Op = new Operador();
             lstTipoPrest.DataSource = null;
             lstTipoPrest.DataSource = Op.ListaTipoPrestamos();
+        }
+
+        private void CargarPrestamos()
+        {
+            Operador Op = new Operador();
             lstPrestamos.DataSource = null;
-            lstPrestamos.DataSource = Op.ListaPrestamos();
+            lstPrestamos.DataSource = Op.ListaPrestamos(); 
         }
 
         private void lstTipoPrest_SelectedIndexChanged(object sender, EventArgs e)
@@ -70,8 +82,16 @@ namespace LaBancaQueBanca.GUI
         private void button1_Click(object sender, EventArgs e)
         {
             ConfirmarAltaGUI frm = new ConfirmarAltaGUI();
+            CargarPrestamos();
+            ActualizarComision();
             frm.Owner = this;
             frm.Show();
+        }
+
+        private void ActualizarComision()
+        {
+            Operador op = new Operador();
+            tbComiTotal.Text = op.PorcentajeComision().ToString("0.00");
         }
     }
 }

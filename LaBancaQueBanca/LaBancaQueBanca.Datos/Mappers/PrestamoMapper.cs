@@ -41,6 +41,11 @@ namespace LaBancaQueBanca.Datos.Mappers
         private NameValueCollection ReverseMap(Prestamo pre)
         {
             NameValueCollection n = new NameValueCollection();
+            n.Add("TNA", pre.Tna.ToString());
+            n.Add("Linea", pre.Linea);
+            n.Add("Plazo", pre.Plazo.ToString());
+            n.Add("Usuario", "877071");
+            n.Add("Cuota", "100000");
             return n;
         }
     }

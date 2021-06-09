@@ -24,7 +24,7 @@ namespace LaBancaQueBanca.Negocio
         public List<Prestamo> ListaPrestamos()
         {
             _presMapper = new PrestamoMapper();
-            //llamar API para traer lista préstamos
+            ////llamar API para traer lista préstamos
             List<Prestamo> _list = _presMapper.TraerPrestamos();
             
             return _list;
@@ -41,8 +41,10 @@ namespace LaBancaQueBanca.Negocio
 
         public double PorcentajeComision()
         {
-            double d=0;
-            return d;
+            _presMapper = new PrestamoMapper();
+            List<Prestamo> _list = _presMapper.TraerPrestamos();
+            double monto = _list.Sum(d => d.Monto);
+            return (monto * this.Comision);
         }
 
     }
